@@ -1,5 +1,5 @@
 Summary:	Cons - A software Construction System
-Summary(pl):	Cons - system do konstruowania oprogramowania
+Summary(pl.UTF-8):   Cons - system do konstruowania oprogramowania
 Name:		cons
 Version:	2.2.0
 Release:	1
@@ -26,21 +26,21 @@ accessing an NFS server, and if their clocks aren't in sync, make
 won't know to rebuild things? Well, welcome to a new and better way to
 control the building of your projects.
 
-%description -l pl
-Cons to oparty na Perlu zastêpca make. Nie jest kompatybilny z make
-ale ma wiele potê¿nych mo¿liwo¶ci, których nie ma ¿aden inny system do
-konstruowania oprogramowania, w³±cznie z make.
+%description -l pl.UTF-8
+Cons to oparty na Perlu zastÄ™pca make. Nie jest kompatybilny z make
+ale ma wiele potÄ™Å¼nych moÅ¼liwoÅ›ci, ktÃ³rych nie ma Å¼aden inny system do
+konstruowania oprogramowania, wÅ‚Ä…cznie z make.
 
-Czy u¿ywasz plików Makefile w swoim projekcie? Robi³e¶ kiedy¶ "make
-clean; make all", bo nie by³e¶ pewien, czy zmienione pliki zostan±
-przebudowane poprawnie? A mo¿e pracujesz na kilku maszynach z u¿yciem
-serwera NFS, i je¶li ich zegary nie s± zsynchronizowane, make nie wie,
-co trzeba przebudowaæ? Tak, witamy na nowej i lepszej drodze do
-sterowania budowaniem projektów.
+Czy uÅ¼ywasz plikÃ³w Makefile w swoim projekcie? RobiÅ‚eÅ› kiedyÅ› "make
+clean; make all", bo nie byÅ‚eÅ› pewien, czy zmienione pliki zostanÄ…
+przebudowane poprawnie? A moÅ¼e pracujesz na kilku maszynach z uÅ¼yciem
+serwera NFS, i jeÅ›li ich zegary nie sÄ… zsynchronizowane, make nie wie,
+co trzeba przebudowaÄ‡? Tak, witamy na nowej i lepszej drodze do
+sterowania budowaniem projektÃ³w.
 
 %package test
 Summary:	Cons-Test - Cons software construction utility regression test package
-Summary(pl):	Cons-Test - pakiet z testami regresji dla narzêdzia Cons
+Summary(pl.UTF-8):   Cons-Test - pakiet z testami regresji dla narzÄ™dzia Cons
 Group:		Development/Tools
 Requires:	%{name} = %{version}-%{release}
 
@@ -53,14 +53,14 @@ Cons is a Perl-based make replacement. It is not compatible with make,
 but has a number of powerful capabilities not found in other software
 construction systems, including make.
 
-%description test -l pl
-Pakiet z testami regresji dla narzêdzia do konstruowania
-oprogramowania Cons. Pakiet zawiera testy, skrypt obudowuj±cy do ich
-wykonywania i wspieraj±ce modu³y.
+%description test -l pl.UTF-8
+Pakiet z testami regresji dla narzÄ™dzia do konstruowania
+oprogramowania Cons. Pakiet zawiera testy, skrypt obudowujÄ…cy do ich
+wykonywania i wspierajÄ…ce moduÅ‚y.
 
-Cons to oparty na Perlu zastêpca make. Nie jest kompatybilny z make
-ale ma wiele potê¿nych mo¿liwo¶ci, których nie ma ¿aden inny system do
-konstruowania oprogramowania, w³±cznie z make.
+Cons to oparty na Perlu zastÄ™pca make. Nie jest kompatybilny z make
+ale ma wiele potÄ™Å¼nych moÅ¼liwoÅ›ci, ktÃ³rych nie ma Å¼aden inny system do
+konstruowania oprogramowania, wÅ‚Ä…cznie z make.
 
 %prep
 %setup -q
