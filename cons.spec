@@ -1,5 +1,5 @@
 Summary:	Cons - A software Construction System
-Summary(pl.UTF-8):   Cons - system do konstruowania oprogramowania
+Summary(pl.UTF-8):	Cons - system do konstruowania oprogramowania
 Name:		cons
 Version:	2.2.0
 Release:	1
@@ -40,7 +40,7 @@ sterowania budowaniem projektów.
 
 %package test
 Summary:	Cons-Test - Cons software construction utility regression test package
-Summary(pl.UTF-8):   Cons-Test - pakiet z testami regresji dla narzędzia Cons
+Summary(pl.UTF-8):	Cons-Test - pakiet z testami regresji dla narzędzia Cons
 Group:		Development/Tools
 Requires:	%{name} = %{version}-%{release}
 
